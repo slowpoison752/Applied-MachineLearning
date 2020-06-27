@@ -1,0 +1,9 @@
+DESCRIPTION
+
+Trying to understand basics of data visualization wit matplotlib and seaborn.
+
+Understanding univarient Box-Plot and multi varient boxplot with example.
+
+Understanding barplot with estimator option.
+
+Understanding countplot.
