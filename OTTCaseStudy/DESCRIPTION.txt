@@ -1,0 +1,19 @@
+DESCRIPTION
+
+Problem Statement: A digital media company (similar to Voot, Hotstar, Netflix, etc.) had launched a show.
+ 
+Initially, the show got a good response, but then witnessed a decline in viewership. The company wants to figure out what went wrong.
+
+Possible causes:
+
+1. Decline in number of people coming to the platform
+
+2. Fewer people visiting video/series
+
+3. Decrease in marketing spends.
+
+4. Competitive shows (including sports, IPL, EPL, etc)
+
+5. Special holiday/ long weekend
+
+6. Twist in story.
