@@ -1,0 +1,7 @@
+DESCRIPTION
+
+Trying to understand basics of Simple linear regression with TV sales dataset.
+
+Using Train_test_Split to split data into training and test datasets.
+
+Calculating R^2 and MSE for predicted data to understand model accuracy.
