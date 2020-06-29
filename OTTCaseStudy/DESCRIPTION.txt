@@ -17,3 +17,62 @@ Possible causes:
 5. Special holiday/ long weekend
 
 6. Twist in story.
+
+
+Details:
+
+Label Column = y = Views_show
+
+Model1: lm_1 
+	
+	features considered: ['Visitors','Day_of_week']
+	Model:                            OLS
+	R-squared:                       0.358   
+	Adj. R-squared:                  0.341
+
+
+Model1: lm_2 
+	
+	features considered: ['Visitors','Day_of_week','Character_A']
+	Model:                            OLS
+	R-squared:                       0.586
+	Adj. R-squared:                  0.570	
+
+
+Model1: lm_3 
+	
+	features considered: ['Visitors','Day_of_week','Character_A','Lag_view']
+	
+	Where Lag_view is a derived column used to relate previous day views to current day views
+
+	Model:                            OLS
+	R-squared:                       0.740  
+	Adj. R-squared:                  0.726
+
+
+Model1: lm_4 
+	
+	features considered: ['Visitors','Day_of_week','Character_A','Lag_view','Cricket_match_india']
+	Model:                            OLS
+	R-squared:                       0.745  
+	Adj. R-squared:                  0.728
+
+
+Model1: lm_5 
+	
+	features considered: ['Day_of_week','Character_A','Cricket_match_india','Ad_impression']
+	Model:                            OLS
+	R-squared:                       0.803   
+	Adj. R-squared:                  0.793
+
+Model1: lm_5 
+	
+	features considered: ['Day_of_week','Ad_impression']
+	Model:                            OLS
+	R-squared:                       0.936   
+	Adj. R-squared:                  0.934
+
+
+mean_squared_error for predicted values of test data: 	7074807341.106851
+
+r2_score for predicted values of test data:		0.7190951015848325
