@@ -1,0 +1,39 @@
+DESCRIPTION
+
+3 datasets:
+	1. churn_data
+	2. customer_data
+	3. internet_data
+
+Merging on: customer id
+
+total columns: 21
+
+Convert categorical variable into dummy/indicator variables.
+
+Converting numeric values in 'object' form to numeric form.
+
+Columns after performing EDA: 32
+
+Uncerstanding correlation in features.
+
+Handling NULL data.
+
+Checking for imbalance in data
+
+Using GLM model and RFE to understand columns that we can use for model creation.
+
+Building a logistic regression model and using it to predict with test data.
+
+Measuring Accuracy for the model.
+
+Checking confusion matrix
+
+Area of improvement:
+
+	1. From the confusion matrix we can conclude that we have 160 false positives.
+
+	2. We can also conclude that we have 321 false negatives.
+
+	3. When we checked for imbalance in data we realized that the data is imbalanced, 
+	we need to balance data with undersampling or oversampling.
